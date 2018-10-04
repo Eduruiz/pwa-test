@@ -49,7 +49,9 @@ module.exports = {
     init: {
       appId: '3219e2f2-717e-47fe-8570-93fa60dd7fc0',
       allowLocalhostAsSecureOrigin: true,
-      autoRegister: false,
+      welcomeNotification: {
+        disable: true
+      }
     }
   },
   /*
